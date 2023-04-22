@@ -1,0 +1,1 @@
+self.__RSC_CSS_MANIFEST={"__entry_css_mods__":{"/home/runner/work/guber/guber/src/app/page":["/home/runner/work/guber/guber/src/app/globals.css"],"/home/runner/work/guber/guber/src/app/video/[videoId]/page":["/home/runner/work/guber/guber/src/app/globals.css"]},"/home/runner/work/guber/guber/src/app/layout.tsx":["/home/runner/work/guber/guber/src/app/globals.css"]}

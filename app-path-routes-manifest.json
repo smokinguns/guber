@@ -1,0 +1,6 @@
+{
+  "/api/hello/route": "/api/hello",
+  "/api/video/[videoId]/route": "/api/video/[videoId]",
+  "/page": "/",
+  "/video/[videoId]/page": "/video/[videoId]"
+}
