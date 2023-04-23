@@ -22,11 +22,7 @@ jobs:
       - name: Installing my packages
         run: npm ci
 
-      - name: Build my App
-        run: npm run build && touch ./.next/.nojekyll
-
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           folder: out
-          github_token:: ${{ secrets.TOKEN }}
