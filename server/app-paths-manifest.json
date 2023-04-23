@@ -1,6 +1,0 @@
-{
-  "/api/hello/route": "app/api/hello/route.js",
-  "/api/video/[videoId]/route": "app/api/video/[videoId]/route.js",
-  "/page": "app/page.js",
-  "/video/[videoId]/page": "app/video/[videoId]/page.js"
-}
