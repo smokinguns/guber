@@ -28,7 +28,7 @@ export default async function Page({params,searchParams}:any) {
 </h1>
   
 
-<Player videoId={video.videoId} sections={video.section} startPos={section.startPos} endPos={section.endPos}></Player>
+<Player videoId={video.videoId} sections={video.section} startPos={section.start} endPos={section.end}></Player>
   </div>
   
 }

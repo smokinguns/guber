@@ -1,10 +1,41 @@
+import { NextResponse } from "next/server";
 
 export async function getVidoeData(videoId:string){
 
-   
-    let resp = await fetch(`http://localhost:8888/api/video/${videoId}`,{ next: { revalidate: 10 }});
-    
+    switch(videoId){
+        case "xUQV6x0Hm2o":
+            return  {
+                "videoId": "xUQV6x0Hm2o",
+                "title":"MR Tabs Paradise City",
+                "section": [
+                    {"title":"intro",
+                     "start":50,
+                     "end": 80
+                    },
+                    {
+                        'title':'chrous',
+                        'start': 88,
+                        'end': 95
+                    }
+                ]
+            };
 
 
-      return resp.json();
+           
+    }
+    return  {
+        "videoId": "xUQV6x0Hm2o",
+        "title":"MR Tabs Paradise City",
+        "section": [
+            {"title":"intro",
+             "start":50,
+             "end": 80
+            },
+            {
+                'title':'chrous',
+                'start': 88,
+                'end': 95
+            }
+        ]
+    };
 }
