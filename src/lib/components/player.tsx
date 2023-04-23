@@ -11,7 +11,7 @@ import screenfull from 'screenfull'
 import SectionList from './section-list';
 
 export default function Player(props: any) {
-    const firstSection = props.sections[0];
+    
     const [shouldRenderReactPlayer, setShouldRenderReactPlayer] = useState(false)
     const inputRef = useRef<any>(null);
     const [playbackRate, setPlaybackRate] = useState(1.0);
@@ -109,10 +109,10 @@ export default function Player(props: any) {
 
                         </Grid>
                       <Grid item xs={12}>
-                      <SectionList videoId={videoId} items={props.sections}>
+                       {props.sections? <SectionList videoId={videoId} items={props.sections}>
 
-</SectionList>
-                
+</SectionList> : <></>} 
+                                  
                       </Grid>
                       
                         <Grid item xs={12}>
