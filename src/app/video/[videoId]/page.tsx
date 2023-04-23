@@ -9,7 +9,8 @@ import React from 'react'
 
 export async function generateStaticParams() {
   return [
-    {"videoId": "xUQV6x0Hm2o"}
+    {"videoId": "xUQV6x0Hm2o"},
+    {"videoId":"gcLLOTvSQkM",}
 
   ];
 }
