@@ -13,8 +13,18 @@ export default function Home() {
   return (
    <div> 
 <h1 className="text-3xl font-bold underline">
-      Hello world!!!!!
+     Welcome to guitar youtuber (guber)
     </h1>
+    <ul>
+    <li>
+        <a href='/video/xUQV6x0Hm2o'> Paradice City</a>
+        
+      </li>
+      <li>
+        <a href='/video/gcLLOTvSQkM'> Tool 46 &amp 2</a>
+
+      </li>
+    </ul>
     </div>
   )
 }

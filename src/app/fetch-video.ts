@@ -19,6 +19,17 @@ export async function getVidoeData(videoId:string){
                     }
                 ]
             };
+        case "gcLLOTvSQkM":
+            return {
+                "videoId":"gcLLOTvSQkM",
+                "title":"Tool 46 and 2",
+                "section":[{
+                    "title":"intro",
+                    "start": 17,
+                    "end": 23
+                }]
+            
+            }
 
 
            
