@@ -118,13 +118,13 @@ export default function Player(props: any) {
                         <Grid item xs={12}>
                         Elapsed Time: {elapsedTime}
                     </Grid>
-                        <Grid item xs={2}>
+                        <Grid item xs={4}>
                             <TextField label="Start Position" value={startPos} onChange={(event) => {
                                 setStartPos(parseInt(event.target.value));
 
                             }}></TextField>
                         </Grid>
-                        <Grid item xs={2}>
+                        <Grid item xs={4}>
                             <TextField label="End Position" value={endPos} onChange={(event) => {
                                 setEndPos(parseInt(event.target.value));
 
@@ -132,7 +132,7 @@ export default function Player(props: any) {
 
                         </Grid>
 
-                        <Grid item xs={2}>
+                        <Grid item xs={4}>
                             <FormControlLabel label="Loop" control={
 
                                 <Checkbox value={loop} onChange={(event) => {
