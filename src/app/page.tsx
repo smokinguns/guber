@@ -15,6 +15,7 @@ export default function Home() {
 <h1 className="text-3xl font-bold underline">
      Welcome to guitar youtuber (guber)
     </h1>
+    <a href='simple-video'>Access any youtube video</a>
     <ul>
     <li>
         <a href='video/xUQV6x0Hm2o'> Paradice City</a>
