@@ -17,11 +17,11 @@ export default function Home() {
     </h1>
     <ul>
     <li>
-        <a href='/video/xUQV6x0Hm2o'> Paradice City</a>
+        <a href='video/xUQV6x0Hm2o'> Paradice City</a>
         
       </li>
       <li>
-        <a href='/video/gcLLOTvSQkM'> Tool 46 &amp 2</a>
+        <a href='video/gcLLOTvSQkM'> Tool 46 & 2</a>
 
       </li>
     </ul>
