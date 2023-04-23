@@ -104,7 +104,7 @@ export default function Player(props: any) {
                         playbackRate={playbackRate}
                         onProgress={handleProgress}
                     
-                        
+                        isScanReady
                     />
 
                         </Grid>
